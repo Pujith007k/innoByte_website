@@ -1,0 +1,172 @@
+.aboutMainContainer{
+    background-color: #ffffff;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    
+    margin-top: 40px;
+}
+.aboutImage{
+    height:600px;
+    width:450px;
+    border-radius: 10px;
+    animation: 3s slide-right;
+}
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.DescriptionConatiner{
+    display:inline-block;
+    flex-direction: column;
+    height:400px;
+    width:600px;
+    margin-left: 70px;
+   
+}
+ 
+.horizontalAndTitle{
+    display:flex;
+    position:relative;
+     gap: 1rem;
+     width:300px;
+}
+.aboutTitle{
+ color:#000000;
+ font-size: 20px;
+ font-weight :600;
+ line-height: 0.7;
+   
+}
+.aboutTitle:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background:#fc0362 ;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.aboutHeading{
+    font-size: 40px;
+   
+}
+.aboutParagraph{
+    color:grey;
+    font-size:large;
+    
+}
+.aboutParagraphAddress{
+    color:#46025e;
+    font-size: large;
+    font-weight: 600;
+}
+.aboutParagraphContact{
+    color:blue;
+    font-size: large;
+    font-weight: 600;
+}
+.aboutBookNow{
+  height:45px;
+  width:130px;
+  background-color: #fc0362;
+  color:#ffffff;
+  border-color: 0px;
+  border-width:0px;
+  border-radius:10px;
+  font-size:17px;
+  cursor:pointer;
+}
+@media only screen and (max-width: 768px) {
+    .aboutMainContainer{
+    background-color: #ffffff;
+    height:1000px;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    
+}
+.aboutImage{
+    height:400px;
+    width:100vw;
+    border-radius: 10px;
+    animation: 3s slide-right;
+   
+}
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.DescriptionConatiner{
+    display:inline-block;
+    flex-direction: column;
+    height:800px;
+    width:400px;
+    margin-left: 20px;
+   
+}
+ 
+.horizontalAndTitle{
+    display:flex;
+    position:relative;
+     gap: 1rem;
+     width:300px;
+}
+.aboutTitle{
+ color:#000000;
+ font-size: 16px;
+ font-weight :600;
+ line-height: 0.7;
+   
+}
+.aboutTitle:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background:#fc0362 ;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.aboutHeading{
+    font-size: 30px;
+   
+}
+.aboutParagraph{
+    color:grey;
+    font-size:large;
+    
+}
+.aboutParagraphAddress{
+    color:#46025e;
+    font-size: large;
+    font-weight: 600;
+}
+.aboutParagraphContact{
+    color:blue;
+    font-size: large;
+    font-weight: 600;
+}
+.aboutBookNow{
+  height:45px;
+  width:130px;
+  background-color: #fc0362;
+  color:#ffffff;
+  border-color: 0px;
+  border-width:0px;
+  border-radius:10px;
+  font-size:17px;
+  cursor:pointer;
+}
+}

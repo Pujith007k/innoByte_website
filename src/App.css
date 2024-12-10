@@ -1,0 +1,106 @@
+.navMainContainer{
+  display:flex;
+  flex-direction: column;
+}
+.navBar{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  height: 70px;
+  width:100vw;
+  color:#000000;
+  background-color:#cfebfd;
+}
+.routesNavLink{
+  display:flex;
+  flex-direction: row;
+  color:#000000;
+  
+}
+.ParagraphTitle{
+  font-size:large;
+  margin:15px;
+}
+.Paragraph{
+  font-size:large;
+  margin:15px;
+  cursor:pointer;
+ 
+}
+ 
+ .Paragraph:after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: #fc0362;
+  transition: 300ms;
+}
+
+.Paragraph:hover:after {
+  width: 100%;
+}
+.booknowbutton{
+  height:45px;
+  width:130px;
+  background-color: #fc0362;
+  color:#ffffff;
+  border-color: 0px;
+  border-width:0px;
+  border-radius:10px;
+  font-size:17px;
+  cursor:pointer;
+}
+
+.link{
+  text-decoration: none;
+  color:#000000;
+}
+.navBarMobileContainer{
+  display:none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navBarMobileContainer{
+    display:flex;
+    flex-direction: column;
+  }
+  .navBar{
+    display:none;
+  }
+  .navMainContainer{
+    display:none;
+  }
+  .navbarMobile{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+    background-color:#fc0362;
+    height: 70px;
+    width:100vw;
+    color:#ffffff;
+  }
+  .barOption{
+    height:30px;
+    width:30px;
+    margin-right:10px;
+  }
+  .routesNavMobileLink{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:400px;
+    width:100vw;
+    background-color:#fc0362;
+    color:#ffffff;
+  }
+  .nonavBar{
+    display:none;
+  }
+  .link{
+  text-decoration: none;
+  color:#ffffff;
+}
+}

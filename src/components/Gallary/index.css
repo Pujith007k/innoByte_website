@@ -1,0 +1,147 @@
+.gallaryMainContainer{
+    display:flex;
+    flex-direction:column ;
+    align-items: center;
+    
+}
+.horizontalAndGallaryTitle{
+    display:flex;
+    position:relative;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+}
+.gallaryHeading{
+    color:black;
+    text-align: center;
+    color:#000000;
+    font-size: 20px;
+    font-weight :600;
+    line-height: 0.7;
+}
+.gallaryHeading:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background:#fc0362 ;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.image1{
+    height:500px;
+    width: 300px;
+}
+.gallaryImageContainer{
+    display:flex;
+    flex-direction:column ;
+}
+.imageContainer1{
+    display:flex;
+    
+}
+.imageContainer2{
+    display:flex;
+    flex-direction: column;
+}
+.toprowImageContainer{
+    display:flex;
+}
+.image2{
+    height:250px;
+    width:535px;
+}
+.image3{
+    height:250px;
+    width:350px;
+}
+.middlerowImageContainer{
+    display:flex;
+
+}
+.imageContainer3{
+    display:flex;
+    
+}
+@media only screen and (max-width: 768px) {
+    .gallaryMainContainer{
+    display:flex;
+    flex-direction:column ;
+    align-items: center;
+    
+}
+.horizontalAndGallaryTitle{
+    display:flex;
+    position:relative;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+}
+.gallaryHeading{
+    color:black;
+    text-align: center;
+    color:#000000;
+    font-size: 20px;
+    font-weight :600;
+    line-height: 0.7;
+}
+.gallaryHeading:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background:#fc0362 ;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.image1{
+    height:600px;
+    width: 400px;
+}
+.gallaryImageContainer{
+    display:flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.imageContainer1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.imageContainer2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toprowImageContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image2{
+    height:300px;
+    width:400px;
+}
+.image3{
+    height:300px;
+    width:400px;
+}
+.middlerowImageContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.imageContainer3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+}

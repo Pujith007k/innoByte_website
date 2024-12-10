@@ -1,0 +1,322 @@
+.roomMainContainer{
+    display:flex;
+    background-color: #ffffff;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+}
+.roomDescriptionContainer{
+    display:flex;
+    flex-direction: column;
+    margin-top:30px;
+    margin-left:170px;
+    height:900px;
+    width:900px;
+
+}
+.roomListContainer{
+    display:flex;
+
+}
+.roomOne{
+    height:550px;
+    width:400px;
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:18px;
+    -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+  -webkit-animation-duration: 4s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInUpHeading {
+  0% {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  }
+  @keyframes slideInUpHeading  {
+  0% {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  } 
+
+
+.RoomOnebgImage{
+    background-image: url("https://res.cloudinary.com/dbvonytlq/image/upload/v1732888144/small_cevckh.jpg");
+    height:300px;
+    width:400px;
+    background-size: cover;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px ;
+}
+.IconContainer{
+    display:flex;
+    align-items: center;
+    
+    
+}
+.heartIcon{
+    background-color:beige ;
+    height:50px;
+    width:50px;
+    border-radius:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+.heart{
+    height:30px;
+    width:30px;
+    color:crimson;
+
+}
+.Paintfill{
+    height:30px;
+    width:30px;
+    color:rgb(172, 43, 223);
+}
+.star{
+      height:30px;
+    width:30px;
+    color:cornflowerblue;
+}
+.roomOneDescription{
+    margin-left:20px;
+}
+.roomOneButton{
+  height:45px;
+  width:130px;
+  background-color: #fc0362;
+  color:#ffffff;
+  border-color: 0px;
+  border-width:0px;
+  border-radius:10px;
+  font-size:17px;
+  cursor:pointer;
+
+}
+.roomOneParagraph{
+    color:darkgrey;
+    font-size: large;
+}
+.Rupees{
+    color:#000000;
+    font-size: larger;
+    font-weight: bold;
+}
+.RoomSecondbgImage{
+    background-image: url("https://res.cloudinary.com/dbvonytlq/image/upload/v1732888119/large_zdnfnc.jpg");
+    height:300px;
+    width:400px;
+    background-size: cover;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px ;
+}
+.horizontalAndRoomTitle{
+    display:flex;
+    position:relative;
+    gap: 1rem;
+    width:400px;
+}
+.roomtitle{
+    font-size: 20px;
+     color:#000000;
+ font-size: 20px;
+ font-weight :600;
+ line-height: 0.7;
+}
+.roomtitle:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background:#fc0362 ;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .roomMainContainer{
+    display:flex;
+    background-color: #ffffff;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+}
+.roomDescriptionContainer{
+    display:flex;
+    flex-direction: column;
+    margin-top:30px;
+    margin-left:10px;
+    height:900px;
+    width:900px;
+
+}
+.roomListContainer{
+    display:flex;
+    flex-direction: column;
+
+}
+.roomOne{
+    height:550px;
+    width:400px;
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:18px;
+    -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+  -webkit-animation-duration: 4s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInUpHeading {
+  0% {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  }
+  @keyframes slideInUpHeading  {
+  0% {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  } 
+
+
+.RoomOnebgImage{
+    background-image: url("https://res.cloudinary.com/dbvonytlq/image/upload/v1732888144/small_cevckh.jpg");
+    height:300px;
+    width:400px;
+    background-size: cover;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px ;
+}
+.IconContainer{
+    display:flex;
+    align-items: center;
+    
+    
+}
+.heartIcon{
+    background-color:beige ;
+    height:50px;
+    width:50px;
+    border-radius:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+.heart{
+    height:30px;
+    width:30px;
+    color:crimson;
+
+}
+.Paintfill{
+    height:30px;
+    width:30px;
+    color:rgb(172, 43, 223);
+}
+.star{
+      height:30px;
+    width:30px;
+    color:cornflowerblue;
+}
+.roomOneDescription{
+    margin-left:20px;
+}
+.roomOneButton{
+  height:45px;
+  width:130px;
+  background-color: #fc0362;
+  color:#ffffff;
+  border-color: 0px;
+  border-width:0px;
+  border-radius:10px;
+  font-size:17px;
+  cursor:pointer;
+
+}
+.roomOneParagraph{
+    color:darkgrey;
+    font-size: large;
+}
+.Rupees{
+    color:#000000;
+    font-size: larger;
+    font-weight: bold;
+}
+.RoomSecondbgImage{
+    background-image: url("https://res.cloudinary.com/dbvonytlq/image/upload/v1732888119/large_zdnfnc.jpg");
+    height:300px;
+    width:400px;
+    background-size: cover;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px ;
+}
+.horizontalAndRoomTitle{
+    display:flex;
+    position:relative;
+    gap: 1rem;
+    width:400px;
+}
+.roomtitle{
+    font-size: 20px;
+    color:#000000;
+    font-size: 15px;
+    font-weight :600;
+    line-height: 0.7;
+}
+.roomtitle:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background:#fc0362 ;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+}
