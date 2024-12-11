@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Playwrite+CO+Guides&display=swap');
+
 .navMainContainer{
   display:flex;
   flex-direction: column;
@@ -21,6 +24,11 @@
 .ParagraphTitle{
   font-size:large;
   margin:15px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color:#fc0362;
 }
 .Paragraph{
   font-size:large;
@@ -55,7 +63,7 @@
 
 .link{
   text-decoration: none;
-  color:#000000;
+  color:#021a3d;
 }
 .navBarMobileContainer{
   display:none;
@@ -72,6 +80,14 @@
   .navMainContainer{
     display:none;
   }
+  .ParagraphTitle{
+  font-size:large;
+  margin:15px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
   .navbarMobile{
     display:flex;
     justify-content: space-between;

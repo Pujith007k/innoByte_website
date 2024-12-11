@@ -44,7 +44,7 @@ class Contact extends Component{
                         <textarea rows="8" cols="80" required></textarea>
                         <br />
                         <div className="underline"></div>
-                        <label for="">Write your message</label>
+                        <label for="">Write your message here...</label>
                         <br />
                         
                     </div>
@@ -68,7 +68,7 @@ class Contact extends Component{
                         <p>+91 9007062180</p>
                     </div>
                  </div>
-                    <div className="socialMediaIcons">
+                     <div className="socialMediaIconsContact">
                         <FaFacebookF className="icons"/>
                         <FaInstagram className="icons"/>
                         <FaTwitter className="icons"/>

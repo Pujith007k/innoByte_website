@@ -12,17 +12,19 @@ import Location from'./components/Location'
 import './App.css';
 
 const App=()=>{
+   
     const [barDetails,setBarDetails]=useState(false)
 
-  const onShowBar = () => {
+    const onShowBar = () => {
     setBarDetails((prevState) => !prevState);
-  }
+    }
+    
   
     return(
       <BrowserRouter>
       <div className="navMainContainer">
         <nav className="navBar">
-            <p className="ParagraphTitle">KingSukh <br/> Guest House</p>
+            <p className="ParagraphTitle" >KingSukh <br/> Guest House</p>
             <div className="routesNavLink">
               <Link to="/" className="link"><p className="Paragraph">Home</p></Link>
               <Link to="/about" className="link"><p className="Paragraph">About</p></Link>

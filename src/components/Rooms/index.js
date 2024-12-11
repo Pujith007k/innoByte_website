@@ -10,7 +10,6 @@ const Rooms=()=>{
             <div className="horizontalAndRoomTitle">
                 <p className="roomtitle">OUR LIVING ROOM</p>
             </div>
-            
             <h1 className="roomHeading">The Most Memorable Rest <br/> Time Starts Here.</h1>
             <div className="roomListContainer">
                 <div className="roomOne">
