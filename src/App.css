@@ -13,7 +13,7 @@
   height: 70px;
   width:100vw;
   color:#000000;
-  background-color:#cfebfd;
+  background-color:#ffede7;
 }
 .routesNavLink{
   display:flex;
@@ -34,6 +34,7 @@
   font-size:large;
   margin:15px;
   cursor:pointer;
+  font-family: Poppins;
  
 }
  

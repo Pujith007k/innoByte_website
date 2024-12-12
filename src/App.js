@@ -12,14 +12,11 @@ import Location from'./components/Location'
 import './App.css';
 
 const App=()=>{
-   
     const [barDetails,setBarDetails]=useState(false)
 
     const onShowBar = () => {
     setBarDetails((prevState) => !prevState);
     }
-    
-  
     return(
       <BrowserRouter>
       <div className="navMainContainer">
@@ -37,7 +34,7 @@ const App=()=>{
             <button className="booknowbutton">BOOK NOW</button>
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Services />} />
           <Route path="/rooms" element={<Rooms />} />
